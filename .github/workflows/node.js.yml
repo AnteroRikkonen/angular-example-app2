@@ -48,7 +48,7 @@ jobs:
       - uses: actions/download-artifact@master
         with:
           name: webpack artifacts
-          path: public
+          path:  dist/angular-example-app2
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
