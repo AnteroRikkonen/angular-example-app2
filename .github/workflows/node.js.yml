@@ -3,6 +3,9 @@
 
 name: Node.js CI
 
+env:
+  AZURE_WEBAPP_NAME: skills-test1
+
 on:
   push:
     branches: [ "main" ]
